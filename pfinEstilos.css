@@ -1,0 +1,116 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    color:aliceblue;
+    font-size:medium ;
+    text-align:center;
+    background-image:url("imgFin/pexels.jpeg");
+    background-size:cover;
+    filter: brightness(95%);
+    height:350px;
+    
+    
+}
+
+nav > a{
+    color:aliceblue;
+	font-size:15px;	    
+    text-decoration: none;
+    margin-right: 40px;
+    margin-left: 40px;    
+}
+nav > a:hover{
+    text-decoration: underline; /*Cuando se pasa el mouse, este subraya las palabras*/
+}
+
+button{    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    color:aliceblue;
+    font-size: large;
+    border-color: aliceblue;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+h1{
+    
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+    line-height: 14px;
+}
+#botonPlay{
+    width: 15%;
+    height: 30%; 
+    background-color: Transparent; 
+    cursor:pointer;
+   
+}
+#botonPlay:hover{
+    border: 1px solid transparent; 
+}
+
+main{
+    height: 40%;    
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    
+}
+table{
+    font-size: 14px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: aliceblue;
+    
+}
+.tabTour td{
+    
+  height: 34px;
+  
+}
+
+.td1{
+    width:15%;    
+}
+
+.compraBol{
+    font-size: 14px;
+    background-color:lightskyblue;
+    padding: 2px 2px 2px 2px;
+    border-color:lightblue;
+    border-radius: 4px;
+}
+
+footer{
+    font-size: 18px;
+    height: 50px;
+    color: aliceblue;
+    background-color: black;
+    align-items: center;
+   
+}
+
+.footerTable{  
+    width:60%;
+    font-size: 30px;    
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+.foLogos{
+width:5% ;
+}
+
+
